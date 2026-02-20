@@ -30,7 +30,7 @@ Para executar o arquivo feche o powershell e abra novamente na pasta em que se l
 
 As seguintes instruções se dirigem para a instalação do Laravel e a criação de uma aplicação Laravel.
 
-# What you need?
+# coisas que voce vai precisar
 
 PHP
 
