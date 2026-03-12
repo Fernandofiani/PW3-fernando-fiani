@@ -117,3 +117,39 @@ laravel new example-app
  > php artisan migrate
 
 > digite 'Yes'
+>
+> ⚙️ Como Rodar o Projeto
+1️⃣ Pré-requisitos
+Você precisa ter instalado:
+
+- Node.js
+- npm (geralmente já vem com Node)
+Verifique com:
+
+node -v
+npm -v
+2️⃣ Clonar o repositório
+
+git clone <url-do-repositorio>
+Entrar na pasta do projeto:
+
+cd tic-taka-toe
+3️⃣ Instalar as dependências
+
+npm install
+Esse comando instala todas as bibliotecas listadas no package.json.
+
+4️⃣ Rodar o projeto
+
+npm run dev
+Depois disso o Vite iniciará um servidor local.
+
+Normalmente o projeto ficará disponível em:
+
+http://localhost:5173
+🚀 Scripts Disponíveis
+
+Rodar o projeto
+
+npm run dev
+Build de produção
