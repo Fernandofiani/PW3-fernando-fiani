@@ -155,3 +155,96 @@ Rodar o projeto
 
 npm run dev
 Build de produção
+
+# Tecnologias Utilizadas
+
+
+
+## React
+
+
+
+React é uma  **biblioteca JavaScript para construção de interfaces de usuário**.
+
+Ele permite criar aplicações baseadas em  **componentes reutilizáveis**, facilitando a manutenção e organização do código.
+
+Principais conceitos usados no projeto:
+
+-   **Componentes**  → partes reutilizáveis da interface
+-   **Props**  → dados passados entre componentes
+-   **State (estado)**  → dados que podem mudar durante a execução
+-   **Renderização dinâmica**  → atualização automática da interface
+
+
+
+## Vite
+
+[](https://github.com/bessa2121/PWIII-davi-tavares#vite)
+
+Vite é uma ferramenta moderna para  **criar e rodar projetos front-end**.
+
+Ele substitui ferramentas antigas como Webpack em projetos menores.
+
+Vantagens:
+
+-   Inicialização extremamente rápida
+-   Atualização instantânea no navegador (Hot Reload)
+-   Configuração simples
+
+
+
+----------
+
+#  Estrutura do Projeto
+
+[](https://github.com/bessa2121/PWIII-davi-tavares#-estrutura-do-projeto)
+
+----------
+
+#  Como Rodar o Projeto
+
+[](https://github.com/bessa2121/PWIII-davi-tavares#%EF%B8%8F-como-rodar-o-projeto)
+
+###  Pré-requisitos
+
+[](https://github.com/bessa2121/PWIII-davi-tavares#1%EF%B8%8F%E2%83%A3-pr%C3%A9-requisitos)
+
+Você precisa ter instalado:
+
+- Node.js
+- npm (geralmente já vem com Node)
+
+Verifique com:
+
+- node -v
+npm -v
+
+2️⃣ Clonar o repositório
+
+git clone <url-do-repositorio>
+
+Entrar na pasta do projeto:
+
+- cd jogo-da-velha
+
+3️⃣ Instalar as dependências
+
+- npm install
+
+Esse comando instala todas as bibliotecas listadas no package.json. necessarias para o codigo funcionar
+
+4️⃣ Rodar o projeto
+
+- npm run dev
+
+Depois disso o Vite iniciará um servidor local.
+
+Normalmente o projeto ficará disponível em:
+
+http://localhost:5173
+
+🚀 Scripts Disponíveis
+
+Rodar o projeto
+
+- npm run dev
