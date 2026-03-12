@@ -128,14 +128,14 @@ Você precisa ter instalado:
 - npm (geralmente já vem com Node)
 Verifique com:
 
-node -v
-npm -v
+> node -v
+> npm -v
 2️⃣ Clonar o repositório
 
-git clone <url-do-repositorio>
-Entrar na pasta do projeto:
+> git clone <url-do-repositorio>
+> Entrar na pasta do projeto:
 
-cd tic-taka-toe
+cd jogo_da_velha
 3️⃣ Instalar as dependências
 
 npm install
