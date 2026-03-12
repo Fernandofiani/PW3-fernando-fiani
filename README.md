@@ -120,7 +120,11 @@ laravel new example-app
 >
 
 
-##⚙️ Como Rodar o Projeto
+
+
+
+## ⚙️ Como Rodar o Projeto
+
 1️⃣ Pré-requisitos
 Você precisa ter instalado:
 
@@ -130,12 +134,14 @@ Verifique com:
 
 > node -v
 > npm -v
+
 2️⃣ Clonar o repositório
 
 > git clone <url-do-repositorio>
 > Entrar na pasta do projeto:
 
 cd jogo_da_velha
+
 3️⃣ Instalar as dependências
 
 npm install
@@ -179,7 +185,7 @@ Principais conceitos usados no projeto:
 
 ## Vite
 
-[](https://github.com/bessa2121/PWIII-davi-tavares#vite)
+
 
 Vite é uma ferramenta moderna para  **criar e rodar projetos front-end**.
 
@@ -197,17 +203,17 @@ Vantagens:
 
 #  Estrutura do Projeto
 
-[](https://github.com/bessa2121/PWIII-davi-tavares#-estrutura-do-projeto)
+
 
 ----------
 
 #  Como Rodar o Projeto
 
-[](https://github.com/bessa2121/PWIII-davi-tavares#%EF%B8%8F-como-rodar-o-projeto)
+
 
 ###  Pré-requisitos
 
-[](https://github.com/bessa2121/PWIII-davi-tavares#1%EF%B8%8F%E2%83%A3-pr%C3%A9-requisitos)
+
 
 Você precisa ter instalado:
 
