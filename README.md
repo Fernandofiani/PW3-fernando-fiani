@@ -118,7 +118,9 @@ laravel new example-app
 
 > digite 'Yes'
 >
-> ⚙️ Como Rodar o Projeto
+
+
+##⚙️ Como Rodar o Projeto
 1️⃣ Pré-requisitos
 Você precisa ter instalado:
 
