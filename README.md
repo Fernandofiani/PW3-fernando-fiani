@@ -254,3 +254,29 @@ http://localhost:5173
 Rodar o projeto
 
 - npm run dev
+
+# Laravel Herd
+
+Faça o download no site
+ 
+- https://herd.laravel.com/download/latest/windows
+
+Abra o arquivo baixado e apenas clique em concluir
+
+Após isso abra o como administrador Herd baixado
+
+siga todas as instruções fornecidas no download, se quiser modifique a pasta utilizada
+
+## Abra a aba a esquerda (PHP)
+- se desejado modifique a versão do PHP
+- se modificou a versão va no dashboard e modifique a versão em global PHP version
+
+## Clique em General 
+- e procure la em baixo por Default IDE e em aplication modifique para a aplicação VS Code
+
+## Para criar o projeto
+- Va na aba Sites e procure um botão escrito **+add**
+- escolha entre criar um novo projeto ou abrir um existente
+- se escolhido criar um novo de next e escolha a opção **no starter kit** e next
+- de um nome ao projeto modifique o framework para PHPUnit e next
+- depois clique em open in browser para ver se funcionou
