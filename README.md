@@ -1,282 +1,562 @@
+
 # PW3-fernando-fiani
+
 Programação Web ii por João Siles
+
 ## Read-me
+
+  
 
 Documentação passo a passo da criação de aplicações Laravel.
 
+  
+  
 
 ## PHP
 
+  
+
 Deve-se criar um arquivo php na IDE escolhida por você.
+
+  
 
 Para executar um arquivo de PHP siga estes passo:
 
- - Clone o repositório no caminho  `"C:\xampp\htdocs"` 
+  
 
- - Abra o powershell como administrador
+- Clone o repositório no caminho `"C:\xampp\htdocs"`
 
- - Execute os comandos na seguinte ordem:
+  
 
- - `npm install -g typescript`
+- Abra o powershell como administrador
 
- - `npm install -g tsc`
+  
+
+- Execute os comandos na seguinte ordem:
+
+  
+
+-  `npm install -g typescript`
+
+  
+
+-  `npm install -g tsc`
+
+  
 
 Para executar o arquivo feche o powershell e abra novamente na pasta em que se localiza o arquivo e execute a seguinte linha:
 
-    -`tsc .nomedoarquivo.ts`
-    
+  
+
+-`tsc .nomedoarquivo.ts`
+
+  
 
 # Laravel frameork
 
+  
+
 As seguintes instruções se dirigem para a instalação do Laravel e a criação de uma aplicação Laravel.
+
+  
 
 # coisas que voce vai precisar
 
+  
+
 PHP
+
+  
 
 Composer
 
+  
+
 Laravel installer
+
+  
 
 Node and NPM
 
+  
+
 List item
+
+  
 
 # como instalar os componentes
 
+  
+
 > abra o windows PowerShell como administrador
+
+  
 
 user este codigo
 
+  
+
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
 
+  
+
 ## Criação do projeto Laravel
+
 > use este codigo primeiro
+
+  
 
 composer global require laravel/installer
 
+  
+
 ## criação do app
+
+  
 
 1.feche o PowerShell
 
+  
+
 2.Abra o terminal do seu projeto
+
+  
 
 > use esses codigos
 
-> cd --
+  
 
 > cd --
+
+  
+
+> cd --
+
+  
 
 > cd C:
 
+  
+
 > cd xampp
+
+  
 
 > cd htdocs
 
+  
+
 > cd no seu projeto
+
+  
 
 3.crie o projeto
 
+  
+
 use este codigo:
+
+  
 
 laravel new example-app
 
+  
+
 ## configuração
+
 1.feche o terminal
+
+  
 
 2.abra o Windows PowerShell
 
+  
+
 > Digite este código para instalar todos os arquivos criando a pasta vendor
+
+  
 
 > composer install
 
+  
+
 > Digite este código para gerar os arquivos que são dependências do JavaScript
+
+  
 
 > npm install
 
+  
+
 > Digite este código para pegar os arquivos do npm install e gerar os executáveis ​​a partir deles
+
+  
 
 > npm run build
 
+  
+
 3.Abra o Visual Studio Code, copie e cole o arquivo .env.example
+
+  
 
 4.renomeie o arquivo para .env
 
+  
+
 5.Abra o Windows PowerShell novamente
+
+  
 
 > Digite este código para executar
 
+  
+
 > php artisan
+
+  
 
 > Digite este código para criar uma chave
 
+  
+
 > php artisan key:generate
+
+  
 
 > Digite este código para executar todos os arquivos do banco de dados
 
- > php artisan migrate
+  
+
+> php artisan migrate
+
+  
 
 > digite 'Yes'
+
 >
 
-
-
-
+  
+  
+  
+  
+  
 
 ## ⚙️ Como Rodar o Projeto
 
+  
+
 1️⃣ Pré-requisitos
+
 Você precisa ter instalado:
 
+  
+
 - Node.js
+
 - npm (geralmente já vem com Node)
+
 Verifique com:
 
+  
+
 > node -v
+
 > npm -v
+
+  
 
 2️⃣ Clonar o repositório
 
+  
+
 > git clone <url-do-repositorio>
+
 > Entrar na pasta do projeto:
+
+  
 
 cd jogo_da_velha
 
+  
+
 3️⃣ Instalar as dependências
 
+  
+
 npm install
+
 Esse comando instala todas as bibliotecas listadas no package.json.
+
+  
 
 4️⃣ Rodar o projeto
 
+  
+
 npm run dev
+
 Depois disso o Vite iniciará um servidor local.
+
+  
 
 Normalmente o projeto ficará disponível em:
 
+  
+
 http://localhost:5173
+
 🚀 Scripts Disponíveis
+
+  
 
 Rodar o projeto
 
+  
+
 npm run dev
+
 Build de produção
+
+  
 
 # Tecnologias Utilizadas
 
-
+  
+  
+  
 
 ## React
 
+  
+  
+  
 
+React é uma **biblioteca JavaScript para construção de interfaces de usuário**.
 
-React é uma  **biblioteca JavaScript para construção de interfaces de usuário**.
+  
 
-Ele permite criar aplicações baseadas em  **componentes reutilizáveis**, facilitando a manutenção e organização do código.
+Ele permite criar aplicações baseadas em **componentes reutilizáveis**, facilitando a manutenção e organização do código.
+
+  
 
 Principais conceitos usados no projeto:
 
--   **Componentes**  → partes reutilizáveis da interface
--   **Props**  → dados passados entre componentes
--   **State (estado)**  → dados que podem mudar durante a execução
--   **Renderização dinâmica**  → atualização automática da interface
+  
 
+-  **Componentes** → partes reutilizáveis da interface
 
+-  **Props** → dados passados entre componentes
+
+-  **State (estado)** → dados que podem mudar durante a execução
+
+-  **Renderização dinâmica** → atualização automática da interface
+
+  
+  
+  
 
 ## Vite
 
+  
+  
+  
 
+Vite é uma ferramenta moderna para **criar e rodar projetos front-end**.
 
-Vite é uma ferramenta moderna para  **criar e rodar projetos front-end**.
+  
 
 Ele substitui ferramentas antigas como Webpack em projetos menores.
 
+  
+
 Vantagens:
 
--   Inicialização extremamente rápida
--   Atualização instantânea no navegador (Hot Reload)
--   Configuração simples
+  
 
+- Inicialização extremamente rápida
 
+- Atualização instantânea no navegador (Hot Reload)
+
+- Configuração simples
+
+  
+  
+  
 
 ----------
 
-#  Estrutura do Projeto
+  
 
+# Estrutura do Projeto
 
+  
+  
+  
 
 ----------
 
-#  Como Rodar o Projeto
+  
 
+# Como Rodar o Projeto
 
+  
+  
+  
 
-###  Pré-requisitos
+### Pré-requisitos
 
-
+  
+  
+  
 
 Você precisa ter instalado:
 
+  
+
 - Node.js
+
 - npm (geralmente já vem com Node)
+
+  
 
 Verifique com:
 
+  
+
 - node -v
+
 npm -v
+
+  
 
 2️⃣ Clonar o repositório
 
+  
+
 git clone <url-do-repositorio>
+
+  
 
 Entrar na pasta do projeto:
 
+  
+
 - cd jogo-da-velha
+
+  
 
 3️⃣ Instalar as dependências
 
+  
+
 - npm install
+
+  
 
 Esse comando instala todas as bibliotecas listadas no package.json. necessarias para o codigo funcionar
 
+  
+
 4️⃣ Rodar o projeto
 
+  
+
 - npm run dev
+
+  
 
 Depois disso o Vite iniciará um servidor local.
 
+  
+
 Normalmente o projeto ficará disponível em:
+
+  
 
 http://localhost:5173
 
+  
+
 🚀 Scripts Disponíveis
+
+  
 
 Rodar o projeto
 
+  
+
 - npm run dev
+
+  
 
 # Laravel Herd
 
+  
+
 Faça o download no site
- 
+
 - https://herd.laravel.com/download/latest/windows
+
+  
 
 Abra o arquivo baixado e apenas clique em concluir
 
+  
+
 Após isso abra o como administrador Herd baixado
+
+  
 
 siga todas as instruções fornecidas no download, se quiser modifique a pasta utilizada
 
+  
+
 ## Abra a aba a esquerda (PHP)
+
 - se desejado modifique a versão do PHP
+
 - se modificou a versão va no dashboard e modifique a versão em global PHP version
 
-## Clique em General 
+  
+
+## Clique em General
+
 - e procure la em baixo por Default IDE e em aplication modifique para a aplicação VS Code
 
+  
+
 ## Para criar o projeto
+
 - Va na aba Sites e procure um botão escrito **+add**
+
 - escolha entre criar um novo projeto ou abrir um existente
+
 - se escolhido criar um novo de next e escolha a opção **no starter kit** e next
+
 - de um nome ao projeto modifique o framework para PHPUnit e next
+
 - depois clique em open in browser para ver se funcionou
+---
+
+# Java Spring Boot
+
+ 
+
+ 1. Faça o download do Spring Boot no site [https://start.spring.io](https://start.spring.io/)		 
+ 
+ 
+
+## Configurações
+	
+
+ 1. Project: dentre as três opções(_Gradle Kotlin_, _Gradle Groovy_ ou _Maven_), selecione o `Maven` por ser melhor para codar em Java
+ 
+ 2. Language:entre (_Java_, _Kotlin_ ou _Groovy_), selecione o `Java` que será utilizado no projeto
+ 3. Spring Boot: selecione a opção `4.1.0` "Não selecione os Snapshots"
+ 4. Project Metadata: Coloque as configurações desejadas
+ 5. Packaging: entre os pacotes (Jar e War) selecione o `Jar`
+ 6. Configuration: (Properties e YAML) use `Properties`
+ 7. Java: selecione a `versao 25`, melhor por conta da mais recente dar muitos erros
+ 8. Dependencies: Adicone as dependências desejadas no nosso caso
+  `Spring Web,LombokSpring e Boot Dev Tools`
