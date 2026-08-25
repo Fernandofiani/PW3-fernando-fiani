@@ -1,0 +1,16 @@
+{
+  "name": "api-produtos-rest",
+  "version": "1.0.0",
+  "description": "API RESTful de produtos com Node.js e Express",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
